@@ -1,0 +1,1 @@
+#ifndef _Forth_#define _Forth_#define NO_TCL#define _Debug_#undef __TCL_DEBUG__#ifdef _Debug_	#define __TCL_DEBUG__#endif#include "Exceptions.h"#undef __TCL_DEBUG__enum { eNoErr, eUnexpectedWord, eOutOfMemory, eRunTimeWordsCantBeCompiled, eCompileTimeWordsCantBeRun };#endif

@@ -1,0 +1,1 @@
+#ifndef _BootStrap_#define _BootStrap_void BootStrap( void);#endif
